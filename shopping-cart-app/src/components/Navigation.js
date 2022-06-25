@@ -1,6 +1,7 @@
 import React from "react";
 import './Navigation.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Navigation = () => {
 
@@ -8,12 +9,12 @@ const Navigation = () => {
         <div className="navigation">
             <nav>
                 <div className="title">
-                    Bits and Pieces
+                    <h1>Bits and pieces</h1>
                 </div>
 
                 <div className="nav-items">
                     <a href="/products">Products</a>
-                    <FontAwesomeIcon icon="fa-solid fa-cart-shopping" className="font-awesome" />
+                    <a href="/checkout"><FontAwesomeIcon icon={faShoppingCart} id="cart-icon"/></a>
                 </div>
             </nav>
         </div>

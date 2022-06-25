@@ -1,6 +1,41 @@
-.font-awesome {
-    width: 100px;
-    height: 100px;
+.navigation {
+    padding: 5px 300px;
+    background-color: #112222;
+}
+
+nav, .nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items a {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.nav-items a:hover {
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.title {
+    color: aquamarine;
+    font-size: 1.8rem;
+}
+
+#cart-icon {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 4rem;
     color: black;
-    background-color: black;
+}
+
+#cart-icon:hover {
+    background-color: aquamarine;
 }
