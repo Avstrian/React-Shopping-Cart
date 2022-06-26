@@ -1,5 +1,5 @@
 .navigation {
-    padding: 5px 300px;
+    padding: 0px 300px;
     background-color: #112222;
 }
 
@@ -18,11 +18,11 @@ nav, .nav-items {
 
 .nav-items a:hover {
     cursor: pointer;
-    color: aquamarine;
+    color: rgb(151, 233, 243);
 }
 
 .title {
-    color: aquamarine;
+    color: rgb(151, 233, 243);;
     font-size: 1.8rem;
 }
 
@@ -37,5 +37,5 @@ nav, .nav-items {
 }
 
 #cart-icon:hover {
-    background-color: aquamarine;
+    background-color: rgb(151, 233, 243);;
 }

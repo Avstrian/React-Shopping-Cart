@@ -9,7 +9,7 @@ const Navigation = () => {
         <div className="navigation">
             <nav>
                 <div className="title">
-                    <h1>Bits and pieces</h1>
+                    <h1>Dream of Diamonds</h1>
                 </div>
 
                 <div className="nav-items">
