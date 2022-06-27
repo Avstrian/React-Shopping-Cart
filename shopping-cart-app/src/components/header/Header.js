@@ -10,7 +10,7 @@ const Header = () => {
             <div className="title-text">
                 <h3 className="gray-text">World's best fake diamond store</h3>
                 <h1 className>Look and feel like what others dream of!</h1>
-                <button>Shop Now</button>
+                <a href="/products"><button>Shop Now</button></a>
             </div>
             <div className="image-wrapper">
                 <img src={mainImage} alt="hey"></img>

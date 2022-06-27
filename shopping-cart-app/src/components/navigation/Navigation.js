@@ -9,12 +9,12 @@ const Navigation = () => {
         <div className="navigation">
             <nav>
                 <div className="title">
-                    <h1>Dream of Diamonds</h1>
+                    <a href="/"><h1 id="home-link">Dream of Diamonds</h1></a>
                 </div>
 
                 <div className="nav-items">
                     <a href="/products">Products</a>
-                    <a href="/checkout"><FontAwesomeIcon icon={faShoppingCart} id="cart-icon"/></a>
+                    <a href="/checkout"><FontAwesomeIcon icon={faShoppingCart} id="cart-icon"/><span id="cart-size">{1}</span></a>
                 </div>
             </nav>
         </div>
