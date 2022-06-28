@@ -9,16 +9,16 @@
     background-color: white;
     border-radius: 15px;
     width: 15vw;
-    height: 50vh;
+    height: 60vh;
 }
 
 .product-image {
     width: 15vw;
-    height: 22vh;
+    height: 23vh;
     background-repeat: no-repeat;
 }
 
-.shop-button {
+#shop-button {
     font-size: 1.4rem;
     padding: 15px 55px;
 }

@@ -38,3 +38,10 @@
 #checkout:hover, #back:hover {
     color: black;
 }
+
+.line {
+    margin-top: 20px;
+    width: 150px;
+    height: 2px;
+    background-color: black;
+}

@@ -10,15 +10,15 @@ import product9 from '../assets/product9.jpg';
 
 
 const products = [
-    { image: product1, name: 'Simple Circle Diamond Ring' },
-    { image: product2, name: 'Full-Diamond Necklace' },
-    { image: product3, name: 'Silver Necklace with Diamond Pendant' },
-    { image: product4, name: 'Elegant Diamond Earrings' },
-    { image: product5, name: 'Diamond Flower Ring' },
-    { image: product6, name: 'Exquisite Diamond Earrings' },
-    { image: product7, name: 'Diamond Clean Bracelet' },
-    { image: product8, name: 'Light Diamond Bracelet' },
-    { image: product9, name: 'Diamond Cufflinks' },
+    { image: product1, name: 'Simple Circle Diamond Ring', price: 10799 },
+    { image: product2, name: 'Full-Diamond Necklace', price: 15600 },
+    { image: product3, name: 'Silver Necklace with Diamond Pendant', price: 5299 },
+    { image: product4, name: 'Elegant Diamond Earrings', price: 9449 },
+    { image: product5, name: 'Diamond Flower Ring', price: 23499 },
+    { image: product6, name: 'Exquisite Diamond Earrings', price: 12599 },
+    { image: product7, name: 'Diamond Clean Bracelet', price: 8969 },
+    { image: product8, name: 'Light Diamond Bracelet', price: 7897 },
+    { image: product9, name: 'Diamond Cufflinks', price: 4447 },
 ];
 
 export default products;
