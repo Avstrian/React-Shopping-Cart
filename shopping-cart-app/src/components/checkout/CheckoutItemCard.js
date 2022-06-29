@@ -1,4 +1,5 @@
 import React from "react";
+
 import './CheckoutItemCard.css';
 
 const CheckoutItemCard = (props) => {
@@ -14,7 +15,7 @@ const CheckoutItemCard = (props) => {
                 <h2>Price: ${price}</h2>
             </div>
         </div>
-    )
+    );
 };
 
 export default CheckoutItemCard;

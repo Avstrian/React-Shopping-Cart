@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import './Checkout.css';
+
 import CheckoutItemCard from "./CheckoutItemCard";
 
 
@@ -30,11 +32,11 @@ const Checkout = (props) => {
                 </div>
                 <div className="checkout-buttons">
                     <button id="checkout">Checkout</button>
-                    <button id="back">Back</button>
+                    <Link to={"/"}><button id="back">Back</button></Link>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Checkout;

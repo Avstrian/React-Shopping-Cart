@@ -1,8 +1,10 @@
 import React from "react";
-import './Navigation.css';
+import { Link } from 'react-router-dom'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom'
+
+import './Navigation.css';
 
 const Navigation = (props) => {
 

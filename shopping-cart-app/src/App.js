@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Header from './components/header/Header';
 import Navigation from './components/navigation/Navigation';
@@ -17,15 +17,12 @@ const App = () => {
 
     return (
         <div className='container'>
-            <BrowserRouter>
-                <Routes>
-                    <Route path='/' element={<Navigation number={products.length} />}>
-                        <Route index element={<Header />} />
-                        <Route path='products' element={<Products addToCart={addNewProductToCart} />} />
-                        <Route path='checkout' element={<Checkout products={products} />} />
-                    </Route>
-                </Routes>
-            </BrowserRouter>
+            <Navigation number={products.length} />
+            <Routes>
+                <Route index element={<Header />} />
+                <Route path='products' element={<Products addToCart={addNewProductToCart} />} />
+                <Route path='checkout' element={<Checkout products={products} />} />
+            </Routes>
         </div>
     );
 };
