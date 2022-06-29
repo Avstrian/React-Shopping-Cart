@@ -17,12 +17,13 @@ const App = () => {
 
     return (
         <div className='container'>
-            <Navigation number={products.length}/>
             <BrowserRouter>
                 <Routes>
-                    <Route path='/' element={<Header />} />
-                    <Route path='/products' element={<Products addToCart={addNewProductToCart} />} />
-                    <Route path='/checkout' element={<Checkout products={products}/>} />
+                    <Route path='/' element={<Navigation number={products.length} />}>
+                        <Route index element={<Header />} />
+                        <Route path='products' element={<Products addToCart={addNewProductToCart} />} />
+                        <Route path='checkout' element={<Checkout products={products} />} />
+                    </Route>
                 </Routes>
             </BrowserRouter>
         </div>

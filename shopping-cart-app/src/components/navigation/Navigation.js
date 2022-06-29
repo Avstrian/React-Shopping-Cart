@@ -2,6 +2,7 @@ import React from "react";
 import './Navigation.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom'
 
 const Navigation = (props) => {
 
@@ -9,12 +10,12 @@ const Navigation = (props) => {
         <div className="navigation">
             <nav>
                 <div className="title">
-                    <a href="/"><h1 id="home-link">Diamond Shop</h1></a>
+                   <Link to='/'><h1 id="home-link">Diamond Shop</h1></Link>
                 </div>
 
                 <div className="nav-items">
-                    <a href="/products">Products</a>
-                    <a href="/checkout"><FontAwesomeIcon icon={faShoppingCart} id="cart-icon"/><span id="cart-size">{props.number ? props.number : 0}</span></a>
+                    <Link to='/products'>Products</Link>
+                    <Link to='/checkout'><FontAwesomeIcon icon={faShoppingCart} id="cart-icon"/><span id="cart-size">{props.number ? props.number : 0}</span></Link>
                 </div>
             </nav>
         </div>
